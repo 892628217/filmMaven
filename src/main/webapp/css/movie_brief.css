@@ -1,0 +1,165 @@
+.banner{
+	background:-moz-linear-gradient(left,#CD1076,#0000EE);/*Mozilla*/
+	background:-webkit-gradient(linear,0 50%,100% 50%,from(#CD1076),to(#0000EE));/*Old gradient for webkit*/
+	background:-webkit-linear-gradient(right,#8B1C62,#473C8B);/*new gradient for Webkit*/
+	background:-o-linear-gradient(left,#EE30A7,#0000EE); /*Opera11*/
+
+}
+._imag{
+
+	float: left;
+    position: relative;
+    top: 70px;
+    overflow: hidden;
+    z-index: 9;
+    	
+
+}
+
+
+.brief_name{
+	font-size: 2em;
+	font-weight: 700;
+	float: left;
+	color: white;
+    width:200px;
+    position: relative;
+    top: 70px;
+    margin-left: 60px;
+}
+.brief_englis_name{
+	font-size: 0.8em;
+	font-weight: 100;
+	margin-top: 10px;
+}
+.brief_movie_info{
+	margin-top: 13px;
+	font-size: 0.5em;
+	font-weight: 100;
+}
+
+
+
+.score{
+	float: left;
+	 position: relative;
+    top: 150px;
+    overflow: hidden;
+}
+.score{	color:yellow;}
+.score span{
+	color: white;
+	display: inline-block;
+	margin-left: 20px;
+}
+.s_span{
+	font-size: 2em;
+
+}
+
+
+
+/*按钮的*/
+ .hvr-shutter-out-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: #e1e1e1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.hvr-shutter-out-horizontal:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#000;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+    color: white;
+}
+.hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.button {
+display: block;
+z-index: 2;
+text-shadow: none;
+margin-top: 20px;
+max-width: none;
+
+}
+.button a{
+	text-decoration: none;
+	color: #fff;
+	background: #d8232a;
+	padding: 8px 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 0.8em;
+}
+
+
+
+ 
+@media (min-width: 980px ) and ( max-width: 1199px ) {
+.brief_movie_name{font-size: 1em;}
+.brief_englis_name{font-size: 0.7em;}
+.brief_movie_info{font-size: 0.4em;}
+.button a{font-size: 0.7em;}
+}
+ 
+@media (min-width: 768px ) and ( max-width: 979px ) {
+.brief_movie_name{font-size: 0.9em;}
+.brief_englis_name{font-size: 0.5em;}
+.brief_movie_info{font-size: 0.3em;}
+.button a{font-size: 0.6em;}
+}
+ 
+@media (min-width:500px ) and (  max-width: 767px)
+    {
+.brief_movie_name{font-size: 0.9em;}
+.brief_englis_name{font-size: 0.4em;}
+.brief_movie_info{font-size: 0.3em;}
+.button a{font-size: 0.5em;}
+    }
+
+
+.text_box{margin-top: 60px;font-size:2.5em ;}
+.text_box label{ color: red;}
+._text{
+	margin-top: 50px;
+	font-size: 0.5em;
+}
+
+
+.brief_imag
+{
+	border: white 4px solid;  width: 80%;height: auto;
+}

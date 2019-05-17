@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lee.film.mapper.OrderMapper" >
+
+
+
+  <!-- insert into T_USER(userName,birthday,sex,address) values (#{userName},#{birthday},#{sex},#{address}-->
+
+
+  <!-- insert into T_USER(userName,birthday,sex,address) values (#{userName},#{birthday},#{sex},#{address}-->
+
+<insert id="setOrder" >
+
+  insert into orders(oid,seat,uid,fid,price,times) values (#{0},#{1},#{2},#{3},#{4},#{5});
+
+</insert>
+
+<update id="upSucess" parameterType="string">
+      update orders set state ='1'  where oid =#{out_trade_no}  ;
+
+</update>
+
+    <select id="findorder" parameterType="string" resultType="com.lee.film.model.Orders">
+        select * from orders  where oid =#{out_trade_no};
+    </select>
+
+    <insert id="insertSeat" parameterType="string">
+
+        insert into seat (beseated) value (#{ss1});
+    </insert>
+
+<!--    <select id="findTotalRecords" parameterType="string" resultType="int">-->
+
+<!--&#45;&#45;            select orders.*,film.name,film.image from orders,film where orders.fid=film.id and orders.uid=#{id} and orders.state='1'  ;-->
+<!--           select count(*) from orders,film where orders.fid=film.id and orders.uid=#{uid} and orders.state='1'  ;-->
+
+<!--    </select>   -->
+<!--    -->
+
+
+
+    <select id="findTotalRecords" parameterType="string"  resultType="int">
+select count(*) from orders,film where orders.fid=film.id  and orders.state='1' and orders.uid=#{uid};
+    </select>
+
+    <select id="findAllTasksWithPage" resultType="com.lee.film.model.OrdersEX">
+    select orders.*,film.name,film.image from film,orders where state = '1' and uid=#{2} limit #{0},#{1};
+
+    </select>
+
+
+</mapper>

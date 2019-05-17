@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lee.film.mapper.FilmMapper" >
+
+  
+  <!--<select id="findTotalRecords" parameterType="java.lang.String" resultType=""></select>-->
+  <!--<select id="getFilms" resultType="com.lee.film.model.Film">-->
+
+
+  <!--</select>-->
+
+<!--<select id="selectUser" resultMap="BaseResultMap">
+    select  *  from user_user_t   where user_name = #{0} and user_area=#{1}
+</select>-->
+
+<!--		//2_关联集合 select * from product limit ? , ?
+-->
+
+    <select id="findTotalRecords" resultType="int">
+        select count(*) from film
+
+    </select>
+    
+    <select id="findAllFilmsWithPage"   resultType="com.lee.film.model.Film">
+
+    select * from film limit #{0},#{1}
+    </select>
+
+
+ <select id="findFilm" parameterType="string"   resultType="com.lee.film.model.Film">
+
+    select * from film where id=#{id}
+    </select>
+
+
+ <select id="findbeseated"    resultType="string">
+    select beseated from seat
+    </select>
+
+    <!-- 添加SysUser -->
+    <!--<insert id="insertSysUser" >-->
+        <!--insert into sys_user(-->
+            <!--id,user_name, user_password, user_email,-->
+            <!--user_info, head_img, create_time)-->
+        <!--values(-->
+            <!--#{id},#{userName}, #{userPassword}, #{userEmail},-->
+            <!--#{userInfo}, #{headImg, jdbcType=BLOB}, #{createTime, jdbcType=TIMESTAMP})-->
+    <!--</insert>-->
+    <insert id="savefilm" parameterType="com.lee.film.model.Film" >
+
+        insert into film  (id,name,cid,picture,market_price,hot,description,shop_price,flag)
+        values (#{id},#{name},#{cid},#{picture},#{marketPrice},#{hot},#{description},#{shopPrice},#{flag})
+    </insert>
+
+</mapper>

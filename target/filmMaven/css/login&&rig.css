@@ -1,0 +1,141 @@
+*{	
+	font-family: "微软雅黑",arial;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:#f9f9f9;
+}
+.login-wrapper{
+	background-color: #f9f9f9;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 40px;
+}
+.form-wrapper{
+	background-color: #fff;
+	border: 1px solid #DDD;
+	padding: 40px 50px;
+	margin-top: 53px;
+	margin-bottom: 18px;
+	border-radius: 4px;
+}
+div{
+	display: block;
+}
+.sig-up{
+	width: 100%;
+	border-bottom: 1px solid #DDDDDD;
+	padding-bottom:10px ;
+	overflow: hidden;
+}
+.sig-up .form-title{
+	float: left;
+	font-weight: normal;
+	font-size: 22px;
+	color: #333;
+}
+.sig-up a{
+	float: right;
+	margin-top: 5px;
+	font-size: 14px;
+	outline: 0;
+	color: #900b09;
+	text-decoration: none;
+}
+form{
+	display: block;
+	margin-top: 28px;
+}
+.find-pwd{
+	float: right;
+	color: #900b09;
+	font-size: 14px;
+	text-decoration: none!important;
+}
+.defaultCheck,.agreeCheck{
+	font-size: 14px;
+}
+button.btn-style{
+	margin-top: 22px;
+	background: #5F9EA0!important;
+	border: 1px solid #5F9EA0!important;
+	color: #fff;
+	cursor: pointer;
+}
+button.btn-style:hover{
+	background: #4682B4!important;
+}
+.sig-wrapper{
+	background:url(../img/erik-mclean-1431584-unsplash.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.sig-wrapper:before{
+	content: '';
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.roll-Pic{
+	margin-top: 53px;
+}
+.protocal{
+	color: #900b09;
+	font-size: 14px;
+	text-decoration: none!important;
+}
+.sex{
+	padding-top: 7px;
+}
+.invalid-feedback {
+margin-left: -25px;
+}
+.verif-style{
+	border: 1px solid #3CB371;
+	margin-top: 2px;
+	background-color: #3CB371;
+}
+.verif-style:hover{
+	background-color: #32CD32;
+	border: 1px solid #3CB371;
+}
+
+
+/*底部样式*/
+footer{
+	padding-top: 30px;
+	background-color: #8D91AA!important;
+	text-align: center;
+	color: #F5F5F5;
+	font-size: 14px;
+}
+footer .row .col-lg-6 img{
+	width: 125px;
+	height: 124px;
+}
+footer .add{
+	text-align: left;
+}
+span.icon-style{
+	margin-right: 20px;
+}
+footer#link-area{
+	background:url(../img/footbackgroud.png)no-repeat;
+	background-size: cover;
+	position: relative;
+}
+footer#link-area:before{
+	content: '';
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}

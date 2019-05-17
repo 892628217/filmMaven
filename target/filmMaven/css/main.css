@@ -1,0 +1,206 @@
+/*首页的css*/
+	*{
+		margin: 0;
+	}
+	.nav_style
+	{
+
+	   font-size: 1.6em;
+       font-family: Microsoft YaHei,Helvetica,Arial,sans-serif;
+	}
+
+	.movie_photo
+	{
+		position: absolute;
+		margin-top: -30px;
+		color: white;
+	}
+	.movie_photo p:first-child{
+		float: left;
+		margin-left: 10px;
+		font-size: 1.3em;
+	}
+	.movie_photo p:last-child{
+		float: left;
+		margin-top: -10px;
+		margin-left: 20px;
+		color: #FF8C00;
+        font-style: italic;
+		font-size: 1.8em;
+	}
+	.buy_tick{
+	    height: 39px;
+	    line-height: 39px;
+	    width: 162px;
+	    border:solid #DDDDDD 1px;
+	}
+	.buy_tick a{
+
+		display: inline-block;
+		height: 39px;
+		width: 89%;
+		text-decoration: none;
+		color: red;
+	}
+	.buy_tick:hover{
+		background-color: red;
+	}
+	.buy_tick a:hover{
+		color: white;
+	}
+
+	
+	
+@media (min-width: 1200px) {
+    .movie_photo{font-size: 16px;}
+    .buy_tick{}
+    .main{margin-top: 40px;float: left;width: 65%;}
+}
+ 
+@media (min-width: 980px ) and ( max-width: 1199px ) {
+    .movie_photo{font-size: 15px;}
+    .buy_tick{}
+    .main{margin-top: 30px;}
+}
+ 
+@media (min-width: 768px ) and ( max-width: 979px ) {
+    .movie_photo{font-size: 14px;}
+    .buy_tick{}
+    .main{margin-top: 27px;}
+}
+ 
+@media ( max-width: 767px ){
+    .movie_photo{font-size: 12px;}
+    .main{margin-top: 25px;}
+    }
+@media ( max-width: 767px ) and ( max-width:500px;)
+    {
+    	.buy_tick{}
+    	.main{margin-top: 20px;}
+    }
+@media (  max-width:500px;)
+    {
+    .buy_tick{}
+    .main{margin-top: 20px;}
+    }
+
+
+ /*    侧栏css*/
+.aside{
+	width: 30%;
+	height: 650px;
+	float: left;
+	margin-left: 5%;
+}
+.movie_p{
+	margin-top: 30px;
+}
+.text_hot{
+	margin-top:20px ;
+	margin-left: 20px;
+}
+.today_tick{
+		margin-top:20px ;
+	margin-left: 20px;
+}
+.today_tick ul li{
+	list-style: none;
+}
+
+.two_and_ten{margin-top: 80px;position: absolute;}
+.two_and_ten ul,ol{
+	clear: left;
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+}
+.two_and_ten ul li{margin-top: 15px;}
+.two_and_ten ul li:nth-child(1){color: red;}
+.two_and_ten ul li:nth-child(2){color: red;}
+.movie_name_1{font-size: 20px; color: #000000;}
+.movie_name{font-size: 20px; color: #000000;display: inline-block;width: 150px;}
+.count_1,.count{color: #EE0000;display: inline-block;margin-top: 13px; font-size: 15px;}
+.count{width:30px;}
+.count{margin-left: 130px;display: inline-block;width: 80px;}
+
+
+/*footer     底部样式*/
+.footer{
+	width: 100%;
+	height: 200px;
+	background:	#242424;
+	margin-top: 70px;
+	}
+._p {
+     padding-top: 30px;
+    color: #5E5E5E;
+    font-size: 15px;
+    }
+
+/*
+ * 
+ * */
+ .hvr-shutter-out-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: #e1e1e1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.hvr-shutter-out-horizontal:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#000;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+    color: white;
+}
+.hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.button {
+display: block;
+z-index: 2;
+text-shadow: none;
+margin-top: 20px;
+max-width: none;
+
+}
+.button a{
+	text-decoration: none;
+	color: #fff;
+	background: #d8232a;
+	padding: 8px 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 0.8em;
+}

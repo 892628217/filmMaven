@@ -6,55 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c732e567-8ee3-45e4-89bd-069f43f8c5f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/filmMaven_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4ea62009-6d8e-4f59-96e4-d077c717b3c6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/filmMaven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/悟空超.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/悟空超.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lee/film/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lee/film/mapper/CategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lee/film/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lee/film/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/film/brief.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/film/brief.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/409aca94fa1695a6bdb5206735189c11495127.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/amazingCaptain.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/d5bb2989f36ecd73543a095f62f878eb883035.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/波西米亚狂想曲.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/film/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lee/film/mapper/CategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/film/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lee/film/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/filmMaven/WEB-INF/classes/com/lee/film/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/filmMaven/WEB-INF/classes/com/lee/film/mapper/CategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/filmMaven/WEB-INF/classes/com/lee/film/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/filmMaven/WEB-INF/classes/com/lee/film/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/filmMaven/WEB-INF/views/film/brief.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/filmMaven/WEB-INF/views/film/brief.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/filmMaven/WEB-INF/views/user/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/filmMaven/WEB-INF/views/user/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/409aca94fa1695a6bdb5206735189c11495127.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/amazingCaptain.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/d5bb2989f36ecd73543a095f62f878eb883035.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/filmMaven/img/movie_photo/波西米亚狂想曲.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/movie_photo/2.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="c732e567-8ee3-45e4-89bd-069f43f8c5f3" name="Default" comment="1.0" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -156,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-975">
-              <caret line="182" column="24" lean-forward="true" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
+            <state relative-caret-position="87">
+              <caret line="241" column="40" lean-forward="true" selection-start-line="241" selection-start-column="40" selection-end-line="241" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -373,125 +325,6 @@
           <expand>
             <path>
               <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="film" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="film" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="film" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="film" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="film" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="film" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filmMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filmMaven" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -518,7 +351,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -853,12 +686,20 @@
       <workItem from="1558185177681" duration="1978000" />
       <workItem from="1558189342756" duration="1196000" />
       <workItem from="1558232698319" duration="8225000" />
-      <workItem from="1558267449751" duration="2779000" />
+      <workItem from="1558267449751" duration="3065000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0">
+      <created>1558270300908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558270300909</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284929000" />
+    <option name="totallyTimeSpent" value="285215000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,7 +713,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8498845" visible="true" weight="0.23890235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8498845" visible="true" weight="0.23890235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24939467" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -892,9 +733,9 @@
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32971016" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32789856" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.26553673" side_tool="true" visible="true" weight="0.28747794" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.26553673" side_tool="true" visible="true" weight="0.33156967" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.7344633" visible="true" weight="0.28747794" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.7344633" visible="true" weight="0.33156967" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32971016" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
@@ -970,6 +811,10 @@
         <option value="1" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1381,8 +1226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975">
-          <caret line="182" column="24" lean-forward="true" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
+        <state relative-caret-position="87">
+          <caret line="241" column="40" lean-forward="true" selection-start-line="241" selection-start-column="40" selection-end-line="241" selection-end-column="40" />
         </state>
       </provider>
     </entry>

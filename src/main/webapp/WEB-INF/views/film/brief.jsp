@@ -65,11 +65,11 @@
 
 
         <div class="brief_name">
-            <div class="brief_movie_name"><span>惊奇队长</span></div>
-            <div class="brief_englis_name"><span>Captain Marvel</span></div>
-            <div class="brief_movie_info"><span>动作,冒险,科幻</span></div>
-            <div class="brief_movie_info"><span>美国 / 124分钟</span></div>
-            <div class="brief_movie_info"><span>2019-03-08大陆上映</span></div>
+            <div class="brief_movie_name"><span>${film.name}</span></div>
+<%--            <div class="brief_englis_name"><span>Captain Marvel</span></div>--%>
+            <div class="brief_movie_info"><span>类别：${film.category}</span></div>
+<%--            <div class="brief_movie_info"><span>美国 / 124分钟</span></div>--%>
+            <div class="brief_movie_info"><span>上映时间：${film.starttime}</span></div>
             <div class="button">
                 <a name="The Matrix" href="/film/seat.do?id=${film.id}" class="hvr-shutter-out-horizontal">特惠购票</a>
             </div>
@@ -89,13 +89,17 @@
 <div class="container">
     <div class="text-center text_box">
         <label>剧&nbsp;&nbsp;&nbsp;情&nbsp;&nbsp;&nbsp;简&nbsp;&nbsp;&nbsp;介</label>
+<%--        <div class="text-left _text">--%>
+<%--            &nbsp;&nbsp;&nbsp;&nbsp;卡罗尔·丹弗斯（布丽·拉尔森 饰）是克里人的精英部队一员，但她挣扎着回忆过去，--%>
+<%--            对于怎么获得超能力、以及之前的人生等超能力之前的人生，她只在梦中有片段不成章的记忆，--%>
+<%--            这层困扰引起的情绪波动也进而影响她对超能力的掌控。所幸，在星际战队指挥官（裘德·洛 饰）的调教之下，--%>
+<%--            卡罗尔·丹弗斯学会如何控制自己的超能力。一次外星任务中，卡罗尔·丹弗斯因故来到了地球，--%>
+<%--            并遇到还是低阶探员的尼克·弗瑞（塞缪尔·杰克逊 饰），卡罗尔·丹弗斯与尼克·--%>
+<%--            弗瑞一起追捕在地球惹事的变形人塔罗斯（本·门德尔森 饰），同时，也发现自己如何获得超能力。--%>
+<%--        </div>--%>
+<%--        --%>
         <div class="text-left _text">
-            &nbsp;&nbsp;&nbsp;&nbsp;卡罗尔·丹弗斯（布丽·拉尔森 饰）是克里人的精英部队一员，但她挣扎着回忆过去，
-            对于怎么获得超能力、以及之前的人生等超能力之前的人生，她只在梦中有片段不成章的记忆，
-            这层困扰引起的情绪波动也进而影响她对超能力的掌控。所幸，在星际战队指挥官（裘德·洛 饰）的调教之下，
-            卡罗尔·丹弗斯学会如何控制自己的超能力。一次外星任务中，卡罗尔·丹弗斯因故来到了地球，
-            并遇到还是低阶探员的尼克·弗瑞（塞缪尔·杰克逊 饰），卡罗尔·丹弗斯与尼克·
-            弗瑞一起追捕在地球惹事的变形人塔罗斯（本·门德尔森 饰），同时，也发现自己如何获得超能力。
+            &nbsp;&nbsp;&nbsp;&nbsp;${film.introduce}
         </div>
     </div>
 </div>

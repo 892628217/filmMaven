@@ -2,13 +2,13 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.lee.film.mapper.CategoryMapper" >
 
-  <!--<select id="findTotalRecords" parameterType="java.lang.String" resultType=""></select>-->
+<!--<select id="findTotalRecords" parameterType="java.lang.String" resultType=""></select>-->
 <select id="getAllCats"  resultType="com.lee.film.model.Category">
 
   select * from category
 </select>
-  <!-- insert into T_USER(userName,birthday,sex,address) values (#{userName},#{birthday},#{sex},#{address}-->
-  <select id="addCategory" parameterType="com.lee.film.model.Category">
+<!-- insert into T_USER(userName,birthday,sex,address) values (#{userName},#{birthday},#{sex},#{address}-->
+<select id="addCategory" parameterType="com.lee.film.model.Category">
 
 insert into category (cid,cname) values (#{cid},#{cname})
   </select>

@@ -396,7 +396,7 @@
 
 <select id="findfilm"  resultType="com.lee.film.model.Film">
 
-    select * from film order by hot DESC  limit 0,1;
+      select * from film order by hot DESC  ;
   </select>
 
 

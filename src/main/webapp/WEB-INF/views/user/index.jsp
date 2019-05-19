@@ -109,7 +109,7 @@
 				<!--第二部-->
 <%--				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3  movie_p">--%>
 <%--					<div class="items text-center" id="btn_buy">--%>
-<%--						<img class="img-responsive" src="${pageContext.request.contextPath}img/movie_photo/amazingCaptain.jpg" />--%>
+<%--						<img class="img-responsive" src="${pageContext.request.contextPath}img/movie_photo/1.jpg" />--%>
 <%--						<p class="m_name">惊奇队长</p>--%>
 <%--						<p class="score">9.0</p>--%>
 <%--					</div>--%>
@@ -120,7 +120,7 @@
 <%--				<!--第三部-->--%>
 <%--				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3  movie_p">--%>
 <%--					<div class="items text-center" id="btn_buy">--%>
-<%--						<img class="img-responsive" src="${pageContext.request.contextPath}img/movie_photo/amazingCaptain.jpg" />--%>
+<%--						<img class="img-responsive" src="${pageContext.request.contextPath}img/movie_photo/1.jpg" />--%>
 <%--						<p class="m_name">惊奇队长</p>--%>
 <%--						<p class="score">9.0</p>--%>
 <%--					</div>--%>
@@ -131,7 +131,7 @@
 <%--				<!--第三部-->--%>
 <%--				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3  movie_p">--%>
 <%--					<div class="items text-center" id="btn_buy">--%>
-<%--						<img class="img-responsive" src="${pageContext.request.contextPath}/img/movie_photo/amazingCaptain.jpg" />--%>
+<%--						<img class="img-responsive" src="${pageContext.request.contextPath}/img/movie_photo/1.jpg" />--%>
 <%--						<p class="m_name">惊奇队长</p>--%>
 <%--						<p class="score">9.0</p>--%>
 <%--					</div>--%>
@@ -141,7 +141,7 @@
 <%--				<!--第二排第一部-->--%>
 <%--				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3  movie_p">--%>
 <%--					<div class="items text-center" id="btn_buy">--%>
-<%--						<img class="img-responsive" src="${pageContext.request.contextPath}/img/movie_photo/amazingCaptain.jpg" />--%>
+<%--						<img class="img-responsive" src="${pageContext.request.contextPath}/img/movie_photo/1.jpg" />--%>
 <%--						<p class="m_name">惊奇队长</p>--%>
 <%--						<p class="score">9.0</p>--%>
 <%--					</div>--%>
@@ -151,7 +151,7 @@
 <%--				<!--第二排第二部-->--%>
 <%--				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3  movie_p">--%>
 <%--					<div class="items text-center" id="btn_buy">--%>
-<%--						<img class="img-responsive" src="${pageContext.request.contextPath}img/movie_photo/amazingCaptain.jpg" />--%>
+<%--						<img class="img-responsive" src="${pageContext.request.contextPath}img/movie_photo/1.jpg" />--%>
 <%--						<p class="m_name">惊奇队长</p>--%>
 <%--						<p class="score">9.0</p>--%>
 <%--					</div>--%>
@@ -161,7 +161,7 @@
 <%--				<!--第二排第三部-->--%>
 <%--				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3  movie_p">--%>
 <%--					<div class="items text-center" id="btn_buy">--%>
-<%--						<img class="img-responsive" src="img/movie_photo/amazingCaptain.jpg" />--%>
+<%--						<img class="img-responsive" src="img/movie_photo/1.jpg" />--%>
 <%--						<p class="m_name">惊奇队长</p>--%>
 <%--						<p class="score">9.0</p>--%>
 <%--					</div>--%>
@@ -171,7 +171,7 @@
 <%--				<!--第二排第四部-->--%>
 <%--				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3  movie_p">--%>
 <%--					<div class="items text-center" id="btn_buy">--%>
-<%--						<img class="img-responsive" src="img/movie_photo/amazingCaptain.jpg" />--%>
+<%--						<img class="img-responsive" src="img/movie_photo/1.jpg" />--%>
 <%--						<p class="m_name">惊奇队长</p>--%>
 <%--						<p class="score">9.0</p>--%>
 <%--					</div>--%>
@@ -191,60 +191,68 @@
 
 		<div class="today_tick">
 			<!--今日票房的第一条-->
-			<div style="float: left;"><img src="img/movie_photo/榜单图片.jpg"></div>
-			<div style="float: left;padding-top: 15px;padding-left: 20px;">
-				<span class="movie_name_1">比悲伤更悲伤的故事</span><br />
-				<span class="count_1">4644.5万</span>
-			</div>
+<%--			<div style="float: left;"><img src="${pageContext.request.contextPath}/img/movie_photo/1.jpg"></div>--%>
+<%--			<div style="float: left;padding-top: 15px;padding-left: 20px;">--%>
+<%--				<span class="movie_name_1">比悲伤更悲伤的故事</span><br />--%>
+<%--				<span class="count_1">4644.5万</span>--%>
+<%--			</div>--%>
 
 			<!--今日票房后面的-->
 			<div class="two_and_ten" >
 				<ul>
+<c:forEach items="${films}" var="f" varStatus="status">
+
+
 					<li>
-						<i>2</i>
-						<span class="movie_name">惊奇队长</span>
+						<i>${status.count}</i>
+						<span class="movie_name">${f.name}</span>
 						<span class="count">948.24万</span>
 					</li>
-					<li>
-						<i>3</i>
-						<span class="movie_name">绿皮书</span>
-						<span class="count">918.23万</span>
-					</li>
-					<li>
-						<i>4</i>
-						<span class="movie_name">绿皮书</span>
-						<span class="count">918.23万</span>
-					</li>
-					<li>
-						<i>5</i>
-						<span class="movie_name">绿皮书</span>
-						<span class="count">918.23万</span>
-					</li>
-					<li>
-						<i>6</i>
-						<span class="movie_name">绿皮书</span>
-						<span class="count">918.23万</span>
-					</li>
-					<li>
-						<i>7</i>
-						<span class="movie_name">绿皮书</span>
-						<span class="count">918.23万</span>
-					</li>
-					<li>
-						<i>8</i>
-						<span class="movie_name">绿皮书</span>
-						<span class="count">918.23万</span>
-					</li>
-					<li>
-						<i>9</i>
-						<span class="movie_name">绿皮书</span>
-						<span class="count">918.23万</span>
-					</li>
-					<li>
-						<i>10</i>
-						<span class="movie_name">绿皮书</span>
-						<span class="count">918.23万</span>
-					</li>
+
+</c:forEach>
+
+
+
+<%--					<li>--%>
+<%--						<i>3</i>--%>
+<%--						<span class="movie_name">绿皮书</span>--%>
+<%--						<span class="count">918.23万</span>--%>
+<%--					</li>--%>
+<%--					<li>--%>
+<%--						<i>4</i>--%>
+<%--						<span class="movie_name">绿皮书</span>--%>
+<%--						<span class="count">918.23万</span>--%>
+<%--					</li>--%>
+<%--					<li>--%>
+<%--						<i>5</i>--%>
+<%--						<span class="movie_name">绿皮书</span>--%>
+<%--						<span class="count">918.23万</span>--%>
+<%--					</li>--%>
+<%--					<li>--%>
+<%--						<i>6</i>--%>
+<%--						<span class="movie_name">绿皮书</span>--%>
+<%--						<span class="count">918.23万</span>--%>
+<%--					</li>--%>
+<%--					<li>--%>
+<%--						<i>7</i>--%>
+<%--						<span class="movie_name">绿皮书</span>--%>
+<%--						<span class="count">918.23万</span>--%>
+<%--					</li>--%>
+<%--					<li>--%>
+<%--						<i>8</i>--%>
+<%--						<span class="movie_name">绿皮书</span>--%>
+<%--						<span class="count">918.23万</span>--%>
+<%--					</li>--%>
+<%--					<li>--%>
+<%--						<i>9</i>--%>
+<%--						<span class="movie_name">绿皮书</span>--%>
+<%--						<span class="count">918.23万</span>--%>
+<%--					</li>--%>
+<%--					<li>--%>
+<%--						<i>10</i>--%>
+<%--						<span class="movie_name">绿皮书</span>--%>
+<%--						<span class="count">918.23万</span>--%>
+<%--					</li>--%>
 				</ul>
 			</div>            <!--今日票房第二到第十two_and_ten的结束点-->
 		</div>                <!--今日票房today_tick结束点-->
